@@ -18,11 +18,19 @@ A simple Python-based custom search engine that uses the [Exa API](https://exa.a
    ```bash
    git clone https://github.com/your-username/custom-search-engine-exa.git
    cd custom-search-engine-exa
-Install the Exa Python SDK:
-
-2.pip install exa_py
-3.exa = Exa('your-api-key')
-4.python3 main.py
+2.Install the Exa Python SDK:
+```bash
+pip install exa_py
+```
+3.Add your API key:
+Open main.py and replace 'YOUR_KEY_HERE' with your actual key:
+```bash
+exa = Exa('your-api-key')
+```
+4.Run the app:
+```bash
+python3 main.py
+```
 
 
 Search here: best Python tutorials
